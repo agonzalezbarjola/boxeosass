@@ -1,0 +1,52 @@
+.boxeadores-item {
+    text-align: center;
+    margin: 10px;
+    width: 400px;
+    height: 550px;
+  img{ object-fit: contain;
+    width: 70%;
+    height: 70%;
+    background-image: radial-gradient(rgba(39, 39, 39, 0),$color1);
+  transition: all 0.5s;
+    &:hover{filter:sepia(20);
+    }
+    }
+ }
+
+  .boxeadores-title {
+    background-color: $color1;
+    font-size: 25px;
+    border-radius: 10px;
+    color: $color2;
+    padding: 5px;
+  }
+
+  .boxeadores-subtitle {
+    font-size: 19px;
+    margin: 15px 0px;
+  }
+  .boxeadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /**SPONSORS**/
+  .sponsors-item {
+    text-align: center;
+    margin: 5px;
+    width: 400px;
+    height: 150px;
+  img{ object-fit: contain;
+    width: 95%;
+    height: 95%;
+  transition: all 0.5s;
+    &:hover{filter:sepia(20);
+    }
+    }
+ }
+ .sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }

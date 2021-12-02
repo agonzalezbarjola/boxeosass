@@ -1,0 +1,36 @@
+.section1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    margin: 25px;
+    align-items: center;
+    margin-top: 110px;
+  }
+  .section-title {
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    
+     &:hover{
+        font-size: 90px;
+    } 
+    
+    span{
+        color:$color1
+    }
+}
+
+.section-caption {
+    font-size: 25px;
+    margin:15px;
+  }
+
+  img{
+        width: 50%;
+        margin-top: 10px;
+        border-radius: 10px;}
+
+/** Images boxeadores fichas**/

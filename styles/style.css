@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+  color: whitesmoke;
+  background-color: #131313;
+}
+
+.navbar {
+  background-color: black;
+  color: whitesmoke;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.navbar-item img {
+  height: 70px;
+  width: 60px;
+  padding: 10px;
+}
+
+.navbar-link {
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar-link:hover {
+  color: #a01027;
+  font-size: 20px;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 2px;
+  margin: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 110px;
+}
+
+.section-title {
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.section-title:hover {
+  font-size: 90px;
+}
+
+.section-title span {
+  color: #a01027;
+}
+
+.section-caption {
+  font-size: 25px;
+  margin: 15px;
+}
+
+img {
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/** Images boxeadores fichas**/
+.boxeadores-item {
+  text-align: center;
+  margin: 10px;
+  width: 400px;
+  height: 550px;
+}
+
+.boxeadores-item img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 70%;
+  height: 70%;
+  background-image: radial-gradient(rgba(39, 39, 39, 0), #a01027);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.boxeadores-item img:hover {
+  -webkit-filter: sepia(20);
+          filter: sepia(20);
+}
+
+.boxeadores-title {
+  background-color: #a01027;
+  font-size: 25px;
+  border-radius: 10px;
+  color: whitesmoke;
+  padding: 5px;
+}
+
+.boxeadores-subtitle {
+  font-size: 19px;
+  margin: 15px 0px;
+}
+
+.boxeadores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/**SPONSORS**/
+.sponsors-item {
+  text-align: center;
+  margin: 5px;
+  width: 400px;
+  height: 150px;
+}
+
+.sponsors-item img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 95%;
+  height: 95%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.sponsors-item img:hover {
+  -webkit-filter: sepia(20);
+          filter: sepia(20);
+}
+
+.sponsors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */

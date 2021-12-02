@@ -1,0 +1,35 @@
+.navbar {
+    background-color: $navfootercolor;
+    color: $color2;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  .navbar-item img {
+    height: 70px;
+    width: 60px;
+    padding: 10px;
+    
+} 
+
+    .navbar-link {
+        color: whitesmoke;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: all 0.5s;
+     
+    &:hover{
+        color:$color1;
+        font-size: 20px;
+    }
+}
